@@ -22,8 +22,7 @@ module.exports = function(grunt) {
 
   grunt.registerMultiTask("tslint", "A linter for TypeScript.", function() {
     var options = this.options({
-      formatter: "prose",
-      outputFile: null
+      formatter: "prose"
     });
     var done = this.async();
     var failed = 0;
